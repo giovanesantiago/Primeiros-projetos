@@ -1,3 +1,3 @@
 # Curso-web-dev
 
-Meu primeiro projeto teste, pra testar conhecimentos kkkkkk!!
+Aqui esta toda minha evolução de aprendizado .!
