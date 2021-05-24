@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: fa;
+    src: url('fontes/idroid.otf');
+}
+@font-face {
+    font-family: anton;
+    src: url('fontes/Almarai-Light.ttf');
+}
+body{
+    background-color: #84E1AD;
+}
+header{
+    text-align: center;
+    box-shadow: 0 1px 7px black;
+
+    padding: 1px 15px 7px 10px;
+    margin: -8px;
+    border: 0px;
+
+    
+    background-image: linear-gradient(to top, #1D683F 40%, #3BD581 118%, #41D976 140%);
+    color: white;
+}
+header > h1 {
+    font-family: 'anton', sans-serif;
+    font-weight:bold;
+    font-size: 25px;
+}
+header > p {
+    color: #ffffff96;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;    
+}
+#menu > a {
+    color: rgba(255, 255, 255, 0.877);
+    padding: 5px 5px 0px 0px;
+    text-decoration: none;
+    margin: 0px 10px 12px 0px;
+    font-size: 15px;
+    
+}
+#menu > a:hover {
+    text-decoration: underline;
+} 
+main{
+    background-color: white;
+    text-align: center;
+    margin: 12px 77px 10px 99px;
+    padding: 1px 10px 10px 10px;
+    box-shadow: 0 10px 7px #4a9b6d;
+    border: white;
+}
+h2 {
+    font-family: 'fa', Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #2A6745;
+}
+.principal {
+    text-align: justify;
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.795);
+    
+    
+}
+#h3 {
+    font-family: 'fa', Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #2A6745;
+    background-image: linear-gradient(to right , #84e1ac6e 20%, #bbf3d32a 86%, rgba(240, 236, 236, 0.205) 37%);
+    padding: 0px 0px 0px 4px;
+    
+}
+span {
+    color: #379b64;
+    font-weight: bolder;
+
+}
+picture {
+    text-align: center;
+    
+}
+#video {
+    position: relative;
+    padding-bottom: 56.24%;
+    padding-top: 30px;
+    height: 0;
+    margin: -9px;
+    border: 26px solid #1D683F;
+    
+
+}
+#video > iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+article{
+    background-color: white;
+    margin: 12px 77px 10px 99px;
+    padding: 1px 10px 10px 10px;
+    box-shadow: 0 10px 7px #4a9b6d;
+    border: white;
+}
+#bloco {
+    border-radius: 10px;
+    background-color: #C5EBD6; 
+}
+#final {
+    text-align: justify;
+    text-indent: 3px;
+    font-size: 19px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    background-color: #2FA866;
+    padding: 7px 8px 8px 9px;
+}
+#onelis {
+    color: black;
+}
+
+
+
+
+
+
